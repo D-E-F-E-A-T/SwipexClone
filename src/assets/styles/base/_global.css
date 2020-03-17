@@ -1,9 +1,4 @@
 body {
     font-family: 'Open Sans', sans-serif;
-}
-
-p {
-    @mixin atLarge {
-        color: $mainOrange;
-    }
+    background-color: #fcfcfc;
 }
