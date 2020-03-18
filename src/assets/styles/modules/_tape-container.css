@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid-area: tape;
 
 
     &__x {
@@ -51,10 +52,11 @@
             border-radius: 5px;
             margin: 0 3px 0 3px;
         }
+    &__tape::-webkit-scrollbar {
+            display: none;
+          }
+        
     }
     
-    .tape::-webkit-scrollbar {
-        display: none;
-      }
-    
+  
 }

@@ -1,6 +1,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #fcfcfc;
+    background-color: lightgray;
+    max-height: 100vh;
+    
 
 
 }
@@ -12,5 +14,6 @@ a {
 
 img {
     max-width: 100%;
+
 }
 

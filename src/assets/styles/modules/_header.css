@@ -3,6 +3,12 @@
     justify-content: stretch;
     align-items: center;
     background-color: #FFF;
+    min-width: 100vw;
+   
+
+    @mixin atLarge {
+        margin-bottom: 30px;
+    }
 
 
     &__logo {
@@ -27,7 +33,6 @@
             margin-left: 0;
             margin-right: 0;
         }
-       
 
     }
 
