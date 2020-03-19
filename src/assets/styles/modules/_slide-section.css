@@ -1,0 +1,127 @@
+.slide-section {
+    margin-top: 10px;
+    position: relative;
+    grid-area: slide;
+    max-height: 500px;
+
+    @mixin atLarge {
+       
+        //margin-top: -40px;
+    }
+
+    &__image {
+        border-radius: 10px;
+        height: 65vh;
+        min-width: 100%;
+
+        @mixin atLarge {
+            height: 73vh;
+        }
+    }
+
+    &__location {
+        position: absolute;
+        left: 30px;
+        top: 18px;
+        color: #fff;
+        font-weight: 300;
+        margin-top: 0;
+    }
+
+    &__dots {
+
+        position: absolute;
+        right: 35px;
+        top: 10px;
+
+
+        &__dot {
+            height: 10px;
+            width: 10px;
+            background-color: $muted;
+            margin-bottom: 2px;
+            margin-top: 5px;
+            border-radius: 2px;
+
+
+            &--orange {
+                background-color: $mainOrange;
+            }
+        }
+        
+    }
+
+    &__user-info {
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        max-width: 85%;
+        margin: 0 auto;
+        position: relative;
+        top: -65px;
+        border-bottom: 2px solid $muted;
+        text-align: center;
+
+        @mixin atLarge {
+            display: none;
+        }
+        
+
+        &__link {
+            color: $muted;
+            font-weight: 600;
+            display: block;
+            margin: 0 auto;
+            padding: 10px 0 10px 0;
+        }
+      
+
+        &__icon {
+            color: $mainOrange;
+            font-size: 2rem;
+            margin-right: 15px;
+        }
+
+        &__wrapper{
+            margin: 0 0;
+            border-bottom: 1px solid lightgray;
+            
+
+            &--flex {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            &__user-name {
+                margin-bottom: 5px;
+                margin-top: 10px;
+                
+                    
+            }
+
+            &__location {
+                margin-left: 20px;
+                margin-top: 0;
+                padding-top: 0;
+                font-weight: 600;
+                color: $muted;
+            }
+
+            &__dot {
+                height: 2px;
+                width: 2px;
+                padding: 2px;
+                border-radius: 50%;
+                background-color: green;
+                display: inline-block;
+                margin: 0 0 0 10px;
+            }
+        }
+
+
+    }
+    
+
+
+}

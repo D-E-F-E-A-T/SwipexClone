@@ -1,0 +1,7 @@
+.display-none {
+    display: none;
+
+    @mixin atLarge {
+        display: block;
+    }
+}
