@@ -4,9 +4,12 @@
     grid-area: slide;
     max-height: 500px;
 
+    
+
     @mixin atLarge {
+        margin-top: -60px;
+        width: 100%;
        
-        //margin-top: -40px;
     }
 
     &__image {
@@ -58,7 +61,7 @@
         max-width: 85%;
         margin: 0 auto;
         position: relative;
-        top: -65px;
+        top: -90px;
         border-bottom: 2px solid $muted;
         text-align: center;
 

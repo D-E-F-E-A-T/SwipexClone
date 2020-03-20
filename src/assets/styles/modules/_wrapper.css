@@ -4,4 +4,13 @@
     margin: 0 auto;
     max-width: 600px;
 
+  
+
+    .slide-section__image{
+
+        @mixin atLarge {
+            
+            width: fit-content;
+        }
+    }
 }

@@ -1,0 +1,76 @@
+.user-info {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    
+    position: relative;
+    padding: 10px 10px 60px 10px;
+    
+
+    &__image {
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    &__name {
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        left: 85px;
+        font-weight: 600;
+    }
+
+    &__status {
+        display: inline-block;
+        position: absolute;
+        top: 45px;
+        left: 82px;
+        font-size: 0.6rem;
+        font-weight: 600;
+        color: $mainPurple;
+        text-decoration: underline;
+        text-decoration-color: whitesmoke;
+    }
+
+    &__icon {
+        position: absolute;
+        font-size: 2rem;
+        color: $muted;
+        right: 20px;
+        top: 30px
+    }
+
+    &__heart {
+        font-size: 2rem;
+        color: $mainOrange;
+        position: absolute;
+        bottom:20px;
+        left:20px;
+    }
+
+    &__link {
+        position: absolute;
+        left: 60px;
+        bottom: 30px;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    &__button {
+        font-size: 0.7rem;
+        color: white;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+        background-color: $mainPurple;
+        position: absolute;
+        font-weight: bold;
+        right: 50px;
+        bottom: 15px;
+    }
+
+}
