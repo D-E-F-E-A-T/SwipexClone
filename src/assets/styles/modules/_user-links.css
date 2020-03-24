@@ -1,0 +1,55 @@
+.user-links {
+    
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+    display: flex;
+
+    white-space: nowrap;
+    overflow: hidden;
+  
+
+
+    &__containers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        font-size: 2rem;
+        color: darkgray;
+        margin-bottom: 20px;
+
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        margin-left: 20px;
+        margin-bottom: 35px;
+        color: darkgray;
+    }
+
+    &__num {
+        visibility: hidden;
+        margin-bottom: 18px;
+        margin-left: 12vw;
+        background-color: $mainOrange;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+
+
+
+        &--gray {
+            background-color: darkgray;
+            color: $mainGray;
+            
+           
+        }
+        
+
+        &--not-hidden {
+            visibility: visible;
+        }
+    }
+}

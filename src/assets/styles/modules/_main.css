@@ -4,7 +4,7 @@ main {
 
         display: grid;
         grid-template-columns: 30% 40% 30%;
-        grid-template-areas: "user-info tape .."
+        grid-template-areas: "user-info tape content-right"
                              " .. slide .."
     }
 }
