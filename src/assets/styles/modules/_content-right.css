@@ -1,3 +1,6 @@
 .content-right {
     grid-area: content-right;
+    margin-left: 30px; 
+    margin-right: 30px;
+    
 }

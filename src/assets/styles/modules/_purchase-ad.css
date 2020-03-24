@@ -1,0 +1,50 @@
+.purchase-ad {
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+
+    &__icon {
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        color: $mainOrange;
+        margin: 15px;
+      
+    }
+
+    &__heading {
+        display: inline-block;
+        margin-left: 10px;
+        position: absolute;
+        
+    }
+    
+    &__text {
+        color: $muted;
+        display: inline-block;
+        position: absolute;
+        top: 30px;
+        margin-left: 10px;
+    }
+
+    &__button {
+        display: block;
+        position: relative;
+        top: -15px;
+        font-size: 0.7rem;
+        color: white;
+        text-align: center;
+      
+  
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+        background-color: $mainPurple;
+        font-weight: bold;
+       
+        margin: 30px 30px ;
+        ;
+
+    }
+
+}

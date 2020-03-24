@@ -10,7 +10,9 @@
 
         @mixin atLarge {
             
-            width: fit-content;
+            max-width: fit-content;
+            padding-left: 0;
+            padding-right: 0;
         }
     }
 }

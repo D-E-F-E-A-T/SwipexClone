@@ -1,0 +1,78 @@
+.current-user {
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 90px;
+    margin-top: 30px;
+    position: relative;
+;
+
+    &__wrapper {
+        margin: 0 30px 0 30px;
+        border-bottom: 1px solid gainsboro;
+        border-width: 100%;
+       
+        position: relative;
+    }
+
+    &__info {
+        color: $muted;
+        padding-top: 5px;
+        margin-top: 5px;
+       
+        padding-bottom: 0;
+        margin-bottom: 0;
+        &--float {
+            float:left;
+            margin-left: 120px;
+        }
+    }
+
+    &__name {
+        padding-top: 0;
+        margin-top: 0;
+        font-weight: 700;
+
+        &--float {
+            float: left;
+            margin-left: 120px;
+            margin-bottom: -10px;
+        }
+
+
+    }
+
+    &__icon {
+     
+        background-color: $mainPurple;
+        font-size: 2rem;
+        color: white;
+        border-radius: 10px;
+        text-align: right;
+        position: absolute;
+        right: 20px;
+        top: 40px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        background-color: $muted;
+
+       
+        border-radius: 10px;
+        margin-top: 20px;
+        
+        height: 40px;
+    }
+
+    &__gift {
+        float: left;
+        font-size: 4rem;
+        position: absolute;
+        left: 30px;
+        bottom: 25px;
+        color: $mainPurple;
+    }
+    
+}

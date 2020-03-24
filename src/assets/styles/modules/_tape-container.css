@@ -29,12 +29,15 @@
         text-align: center;
         position: absolute;
         left: 60px;
+        top: 15px;
                 
     }
 
     &__ellipsis {
         font-size: 1.2rem;
         color: $muted;
+        top: 15px;
+        position: relative;
     }
 
     &__main-image {
@@ -69,3 +72,8 @@
     
   
 }
+
+.tape-container__tape::-webkit-scrollbar {
+    display: none;
+  }
+

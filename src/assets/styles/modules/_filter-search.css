@@ -1,0 +1,19 @@
+.filter-search {
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__title {
+        display: inline-block;
+        padding-left: 30px;
+    }
+
+    &__icon {
+        margin-right: 30px;
+        color: $mainPurple;
+        font-size: 2rem;
+    }
+
+}

@@ -5,10 +5,6 @@
     margin-top: 50px;
     display: flex;
 
-    white-space: nowrap;
-    overflow: hidden;
-  
-
 
     &__containers {
         display: flex;
